@@ -68,6 +68,7 @@ public class EmployeeController {
         return joblevelService.list();
     }
 
+
     @ApiOperation(value = "获取所有民族")
     @GetMapping("/nations")
     public List<Nation> getAllNation() {
